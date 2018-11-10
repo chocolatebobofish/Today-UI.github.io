@@ -1,0 +1,158 @@
+body{
+    font-family: -apple-system,system,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* common css */
+a{   
+    text-decoration-line: none; 
+} 
+.logo, #footer{
+    text-align: center;
+}
+/* common css end */
+
+/* header */
+#header{    
+    height: 44px;    
+}
+
+.logo{
+    width: 100%;  
+    height: 100%;  
+    line-height: 44px; 
+}
+.logo img{
+    width: 100px;
+}
+
+/* header end*/
+
+/* nav-bar */
+#nav-tab{    
+    width: 100%;
+    line-height: 43px; 
+    border-bottom: 1px solid #e5e5e5;
+}
+#nav-tab a:first-child .tab{
+    margin: 0 0 0 5px;
+    color: black;
+    font-weight: bold; 
+    border-bottom: 2px solid black;
+
+}
+
+.tab{
+    display: inline-block;
+    color: #b1b6c1;
+    font-size: 15px;
+    padding: 0 5px;
+
+}
+/* nav-bar end*/
+
+.slider{
+    position:relative;
+}
+.slider img{
+    width: 100%;
+    padding: 0;
+}
+
+.slider p{
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index:1;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    
+    
+}
+
+ /* module margin */
+ .module-padding{
+    margin: 12px;
+ }
+ .module-01{
+    max-height: 300px;
+    padding: 7px 0;
+ }
+ .module-01-content-img{
+    width: 40%;
+    display: inline-block;
+}
+.module-01-text{
+    display: inline-block;
+    width: 53%;
+    vertical-align: top;
+}
+.module-01-text{
+    padding-left: 2%;     
+}
+
+.module-01-content-title{
+    display: inline;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #000;
+}
+
+.module-01-content-tag{
+    display: inline;
+    color: #979aa0;
+    font-size: 11px;
+}
+
+
+/* footer */
+#footer{
+    height: 84px;
+    border-top: 2px solid #f1f1f1;
+    background: #f9f9f9;
+    
+}
+.footer-content{
+    padding-top: 15px;
+}
+.footer-link{
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    
+    line-height: 27px;
+}
+.footer-select{
+    display: inline-block;
+    border:1px solid #e0e0e0;
+    vertical-align: middle;
+
+    background-repeat:no-repeat;
+    background-size: 10px;
+    background-position: right;
+
+    margin: 0 0 2px 5px;
+}
+select{
+    margin: 0 12px 2px 6px;
+    /* remove '>' css */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    /* remove option border */
+    border: 0px;
+
+    color: #777;
+}
+select img{
+    width: 10px;
+}
+.addr{
+    padding-top: 6px;
+    color: rgb(219, 219, 219);
+    font-size: 12px;
+}
+/* footer end*/
+

@@ -86,13 +86,10 @@ a{
     display: inline-block;
     width: 56%;
     vertical-align: top;
+    padding-left: 2%; 
 }
-.module-01-text{
-    padding-left: 2%;     
-}
-
 .module-01-content-title{
-    display: inline;
+    margin: 0;
     font-size: 15px;
     line-height: 19px;
     font-weight: 400;
@@ -105,7 +102,7 @@ a{
 }
 
 .module-01-content-tag{
-    display: inline;
+    margin-top: 3px;
     color: #979aa0;
     font-size: 11px;
 }
